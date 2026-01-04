@@ -116,28 +116,28 @@ data_df.replace({"Dependents": {"3+": 4}}, inplace=True)
 # hue - Loan_Status, this will show the distribution of loan status for each education level hue means different colors for different categories
 # data - data_df, the dataframe containing the data
 
-# sns.countplot(x="Education", hue="Loan_Status", data=data_df)
-# plt.show()
+sns.countplot(x="Education", hue="Loan_Status", data=data_df)
+plt.show()
 
 # Marital Status vs Loan Status
 
-# sns.countplot(x="Married", hue="Loan_Status", data=data_df)
-# plt.show()
+sns.countplot(x="Married", hue="Loan_Status", data=data_df)
+plt.show()
 
 # Gender vs Loan Status
 
-# sns.countplot(x="Gender", hue="Loan_Status", data=data_df)
-# plt.show()
+sns.countplot(x="Gender", hue="Loan_Status", data=data_df)
+plt.show()
 
 # Self Employed vs Loan Status
 
-# sns.countplot(x="Self_Employed", hue="Loan_Status", data=data_df)
-# plt.show()
+sns.countplot(x="Self_Employed", hue="Loan_Status", data=data_df)
+plt.show()
 
 # Property Area vs Loan Status
 
-# sns.countplot(x="Property_Area", hue="Loan_Status", data=data_df)
-# plt.show()
+sns.countplot(x="Property_Area", hue="Loan_Status", data=data_df)
+plt.show()
 
 # Encoding Categorical Variables
 # We can do this encoding as before using replace method or we can use LabelEncoder from sklearn
